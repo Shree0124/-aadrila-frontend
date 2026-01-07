@@ -102,6 +102,9 @@
 //     </nav>
 //   );
 // }
+
+
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -154,13 +157,13 @@ export default function Navbar() {
           onClick={() => scrollToSection("home")}
           className="cursor-pointer flex items-center"
         >
-          <Image
+          {/* <Image
             src="/assets/navbar_logo.svg"
             alt="AADRILA Technologies"
             width={150}
             height={42}
             priority
-          />
+          /> */}
         </div>
 
         {/* Desktop Menu */}
